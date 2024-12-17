@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "upstream"]
+	url = https://github.com/ByteGrad/portfolio-website.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "master"]
+	remote = upstream
+	merge = refs/heads/master
+	vscode-merge-base = origin/master
+[branch "portfolio"]
+	vscode-merge-base = origin/master
+	remote = origin
+	merge = refs/heads/portfolio
+[remote "origin"]
+	url = https://github.com/Nagaraju0011/portfolio-website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
